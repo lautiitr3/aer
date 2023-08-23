@@ -24,6 +24,7 @@
     </header>
     <div class="container">
         <h1>Seleccione el tipo de Destinos</h1>
+        
         <a href='http://localhost/pruebitaashe/public/destinosviaje' class="option-link">Destinos Internacionales</a>
         <a href='http://localhost/pruebitaashe/public/destinosnacionales' class="option-link">Destinos Nacionales</a>
     </div>
