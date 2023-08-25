@@ -24,7 +24,7 @@
         </div>
     </header>
     <div class="container">
-        <h1>Destinos de Viaje</h1>
+        <h1>Destinos Internacionales</h1>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/destino4.png") ?>" alt="Destino 1">
             <h2>Cancún, México</h2>
