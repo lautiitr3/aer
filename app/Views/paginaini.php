@@ -6,6 +6,7 @@
     <title>Aereoz - Tu aerolínea de confianza</title>
     <link rel="stylesheet" href="/estilo.css"> <!-- Enlaza tu archivo de estilos CSS -->
     <link rel="icon" href="<?php echo base_url("/images/logoo.png") ?>" type="image/x-icon">
+    
 </head>
 <body>
     <header class="main-header">

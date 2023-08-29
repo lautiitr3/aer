@@ -20,4 +20,5 @@ class ReservaVuelos extends BaseController
         // Después de procesar la reserva, muestra una confirmación
         return view('reserva_confirmacion');
     }
+    
 }
