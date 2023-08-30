@@ -18,7 +18,6 @@
                     <li><a href="http://localhost:8080/index.php/profile">Inicio</a></li>
                     <li><a href="http://localhost:8080/signup">Registrarse</a></li>
                     <li><a href="http://localhost:8080/index.php/signin">Iniciar sesión</a></li>
-                    <li><a href="http://localhost/pruebitaashe/public/reservavuelos">Reserva de Vuelos</a></li>
                     <li><a href="http://localhost/pruebitaashe/public/destinos">Destinos</a></li>
                     <!-- Agrega más enlaces de navegación aquí -->
                 </ul>

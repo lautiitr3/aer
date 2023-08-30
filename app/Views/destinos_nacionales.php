@@ -16,7 +16,6 @@
                     <li><a href="http://localhost:8080/index.php/profile">Inicio</a></li>
                     <li><a href="http://localhost:8080/signup">Registrarse</a></li>
                     <li><a href="http://localhost:8080/index.php/signin">Iniciar sesión</a></li>
-                    <li><a href="http://localhost/pruebitaashe/public/reservavuelos">Reserva de Vuelos</a></li>
                     <li><a href="http://localhost/pruebitaashe/public/destinos">Destinos</a></li>
                     <!-- Agrega más enlaces de navegación aquí -->
                 </ul>
@@ -27,42 +26,42 @@
         <h1>Destinos Nacionales</h1>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/bsas.jpg") ?>" alt="Destino 1">
-            <h2>Buenos Aires</h2>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Buenos Aires</a>
             <p>¡No te lo pierdas!</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/cordoba.jpg") ?>" alt="Destino 2">
-            <h2>Cordoba</h2>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Cordoba</a>
             <p>Descubre las maravillas de la ciudad de Cordoba</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/misiones.jpg") ?>" alt="Destino 3">
-            <h2>Misiones</h2>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Misiones</a>
             <p>Lugar que vale la pena visitar.</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/mendoza.jpg") ?>"alt="Destino 4">
-            <h2>Mendoza</h2>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Mendoza</a>
             <p>No te pierdas conocer esta maravilla.</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/jujuy.jpg") ?>"alt="Destino 5">
-            <h2>Jujuy</h2>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Jujuy</a>
             <p>Conoce toda la historia de la realeza.</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/bariloche.jpg") ?>"alt="Destino 6">
-            <h2>Rio Negro</h2>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Rio Negro</a>
             <p>Pasea por las calles hermosas de Amsterdam.</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/larioja.png") ?>"alt="Destino 7">
-            <h2>La Rioja</h2>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">La Rioja</a>
             <p>Disfruta de la playa soñada.</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/tierradelfuego.png") ?>"alt="Destino 8">
-            <h2>Tierra Del Fuego</h2>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Tierra Del Fuego</a>
             <p>Recorre la ciudad tecnologica de Tokyo.</p>
         </div>
     </div>
