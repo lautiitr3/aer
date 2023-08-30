@@ -8,4 +8,6 @@ class Destinos extends BaseController
     {
         return view('destinos'); // Nombre de la vista sin extensión
     }
+
+    
 }
