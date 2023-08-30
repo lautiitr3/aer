@@ -54,25 +54,25 @@
         </form>   
         </div>  
     <section class="image-gallery">
-    <div class="image">
-    <a href="http://localhost/pruebitaashe/public/destinos"><img src="<?php echo base_url("/images/aurora-boreal.png")?>" ></a>
-    </div>
-    <div class="image">
-    <a href="http://localhost/pruebitaashe/public/destinos"><img src="<?php echo base_url("/images/brasi.png" )?>"></a>
-    </div>
-    <div class="image">
-    <a href="http://localhost/pruebitaashe/public/destinos"><img src="<?php echo base_url("/images/grecia.jpg")?>"></a>
-    </div>
-    <div class="imagen">
-    <a href="http://localhost/pruebitaashe/public/destinos"><img src="<?php echo base_url("/images/bariloche.jpg")?>" ></a>
-    </div>
-    <div class="imagen">
-    <a href="http://localhost/pruebitaashe/public/destinos"><img src="<?php echo base_url("/images/corrientes.png" )?>"></a>
-    </div>
-    <div class="imagen">
-    <a href="http://localhost/pruebitaashe/public/destinos"><img src="<?php echo base_url("/images/jujuy.jpg")?>"></a>
-    </div>
-</section>
+        <div class="image">
+            <a href="http://localhost/pruebitaashe/public/destinos"><img src="<?php echo base_url("/images/aurora-boreal.png")?>" ></a>
+        </div>
+        <div class="image">
+            <a href="http://localhost/pruebitaashe/public/destinos"><img src="<?php echo base_url("/images/brasi.png" )?>"></a>
+        </div>
+        <div class="image">
+            <a href="http://localhost/pruebitaashe/public/destinos"><img src="<?php echo base_url("/images/grecia.jpg")?>"></a>
+        </div>
+        <div class="imagen">
+            <a href="http://localhost/pruebitaashe/public/destinos"><img src="<?php echo base_url("/images/bariloche.jpg")?>" ></a>
+        </div>
+        <div class="imagen">
+            <a href="http://localhost/pruebitaashe/public/destinos"><img src="<?php echo base_url("/images/corrientes.png" )?>"></a>
+        </div>
+        <div class="imagen">
+            <a href="http://localhost/pruebitaashe/public/destinos"><img src="<?php echo base_url("/images/jujuy.jpg")?>"></a>
+        </div>
+    </section>
     <footer>
         <div class="footer-content">
             <p>&copy; 2023 Aereoz. Todos los derechos reservados.</p>
