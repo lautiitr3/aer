@@ -41,7 +41,7 @@ $routes->post('reservavuelos/procesarreserva', 'ReservaVuelos::procesarReserva')
 $routes->get('destinosviaje', 'DestinosViaje::index'); // Muestra los destinos de viaje
 $routes->get('destinosnacionales', 'DestinosNacionales::index');
 $routes->get('destinos', 'Destinos::index');
-$routes->get('aurora', 'DestinoInter::index');
+$routes->get('aurora', 'DestinoInter::auro');
 $routes->get('cancun', 'DestinoInter::cancu');
 $routes->get('brasil', 'DestinoInter::brasi');
 $routes->get('newyork', 'DestinoInter::newy');

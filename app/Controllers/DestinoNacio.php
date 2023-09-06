@@ -10,31 +10,31 @@ class DestinoNacio extends BaseController
     }
     public function cap()
     {
-        return view('cordoba'); // Nombre de la vista sin extensión
+        return view('cordoba'); 
     }
     public function misi()
     {
-        return view('misiones'); // Nombre de la vista sin extensión
+        return view('misiones'); 
     }
     public function men()
     {
-        return view('mendoza'); // Nombre de la vista sin extensión
+        return view('mendoza'); 
     }
     public function ju()
     {
-        return view('jujuy'); // Nombre de la vista sin extensión
+        return view('jujuy'); 
     }
     public function rio()
     {
-        return view('rionegro'); // Nombre de la vista sin extensión
+        return view('rionegro'); 
     }
     public function lari()
     {
-        return view('larioja'); // Nombre de la vista sin extensión
+        return view('larioja'); 
     }
     public function tie()
     {
-        return view('tierradelfuego'); // Nombre de la vista sin extensión
+        return view('tierradelfuego'); 
     }
     
 }
