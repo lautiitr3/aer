@@ -26,42 +26,42 @@
         <h1>Destinos Nacionales</h1>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/bsas.jpg") ?>" alt="Destino 1">
-            <a href="http://localhost/pruebitaashe/public/buenosaires">Buenos Aires</a>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Buenos Aires</a>
             <p>¡No te lo pierdas!</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/cordoba.jpg") ?>" alt="Destino 2">
-            <a href="http://localhost/pruebitaashe/public/cordoba">Cordoba</a>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Cordoba</a>
             <p>Descubre las maravillas de la ciudad de Cordoba</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/misiones.jpg") ?>" alt="Destino 3">
-            <a href="http://localhost/pruebitaashe/public/misiones">Misiones</a>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Misiones</a>
             <p>Veni a conocer una de las maravillas del mundo.</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/mendoza.jpg") ?>"alt="Destino 4">
-            <a href="http://localhost/pruebitaashe/public/mendoza">Mendoza</a>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Mendoza</a>
             <p>No te pierdas conocer esta maravilla.</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/jujuy.jpg") ?>"alt="Destino 5">
-            <a href="http://localhost/pruebitaashe/public/jujuy">Jujuy</a>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Jujuy</a>
             <p>Conoce el cerro de los siete colores.</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/bariloche.jpg") ?>"alt="Destino 6">
-            <a href="http://localhost/pruebitaashe/public/rionegro">Rio Negro</a>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Rio Negro</a>
             <p>Veni a disfrutar de la nieve.</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/larioja.png") ?>"alt="Destino 7">
-            <a href="http://localhost/pruebitaashe/public/larioja">La Rioja</a>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">La Rioja</a>
             <p>Conoce la puerta del norte argentino.</p>
         </div>
         <div class="destination-card">
             <img src="<?php echo base_url("/images/tierradelfuego.png") ?>"alt="Destino 8">
-            <a href="http://localhost/pruebitaashe/public/tierradelfuego">Tierra Del Fuego</a>
+            <a href="http://localhost/pruebitaashe/public/reservavuelos">Tierra Del Fuego</a>
             <p>El fin del mundo.</p>
         </div>
     </div>

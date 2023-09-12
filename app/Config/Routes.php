@@ -41,24 +41,7 @@ $routes->post('reservavuelos/procesarreserva', 'ReservaVuelos::procesarReserva')
 $routes->get('destinosviaje', 'DestinosViaje::index'); // Muestra los destinos de viaje
 $routes->get('destinosnacionales', 'DestinosNacionales::index');
 $routes->get('destinos', 'Destinos::index');
-$routes->get('aurora', 'DestinoInter::auro');
-$routes->get('cancun', 'DestinoInter::cancu');
-$routes->get('brasil', 'DestinoInter::brasi');
-$routes->get('newyork', 'DestinoInter::newy');
-$routes->get('paris', 'DestinoInter::francia');
-$routes->get('madrid', 'DestinoInter::espa');
-$routes->get('islas', 'DestinoInter::grecia');
-$routes->get('londres', 'DestinoInter::lond');
-$routes->get('tokyo', 'DestinoInter::jap');
-$routes->get('venecia', 'DestinoInter::ita');
-$routes->get('buenosaires', 'DestinoNacio::bsas');
-$routes->get('cordoba', 'DestinoNacio::cap');
-$routes->get('misiones', 'DestinoNacio::misi');
-$routes->get('mendoza', 'DestinoNacio::men');
-$routes->get('jujuy', 'DestinoNacio::ju');
-$routes->get('rionegro', 'DestinoNacio::rio');
-$routes->get('larioja', 'DestinoNacio::lari');
-$routes->get('tierradelfuego', 'DestinoNacio::tie');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
