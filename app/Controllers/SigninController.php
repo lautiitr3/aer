@@ -28,7 +28,10 @@ class SigninController extends Controller
                     'id' => $data['id'],
                     'name' => $data['name'],
                     'email' => $data['email'],
-                    'isLoggedIn' => TRUE
+                    'isLoggedIn' => TRUE;
+                    if ($data['id_rango'] == 2) {
+                        return redirect()->to(base_url(''));
+                    }
                 ];
                 $session->set($ses_data);
                 return redirect()->to('/profile');
@@ -42,4 +45,10 @@ class SigninController extends Controller
             return redirect()->to('/signin');
         }
     }
+
+        public function admin(): string
+    {
+        return view('admin');
+    }
+
 }

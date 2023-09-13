@@ -41,6 +41,7 @@ $routes->post('reservavuelos/procesarreserva', 'ReservaVuelos::procesarReserva')
 $routes->get('destinosviaje', 'DestinosViaje::index'); // Muestra los destinos de viaje
 $routes->get('destinosnacionales', 'DestinosNacionales::index');
 $routes->get('destinos', 'Destinos::index');
+$routes->get('admin', 'SigninController::admin');
 
 /*
  * --------------------------------------------------------------------
