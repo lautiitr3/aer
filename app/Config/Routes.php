@@ -43,6 +43,7 @@ $routes->get('destinosnacionales', 'DestinosNacionales::index');
 $routes->get('destinos', 'Destinos::index');
 $routes->get('admin', 'SigninController::admin');
 
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
