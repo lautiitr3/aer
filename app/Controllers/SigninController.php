@@ -31,14 +31,8 @@ class SigninController extends Controller
                     'email' => $data['email'],
                     'isLoggedIn' => TRUE
                 ];
-                if ($data['id_rango'] == 2) {
-                    return redirect()->to(base_url(''));
-                } elseif ($data['id_rango'] == 1){
-                    return redirect()-> to(base_url(''));
-                }
                 $session->set($ses_data);
                 return redirect()->to('/profile');
-            
             }else{
                 $session->setFlashdata('msg', 'Email o Password es incorrecta');
                 return redirect()->to('/signin');
