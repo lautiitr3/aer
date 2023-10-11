@@ -31,21 +31,11 @@ class SigninController extends Controller
                     'email' => $data['email'],
                     'isLoggedIn' => TRUE
                 ];
-                $session->set($ses_data);
-                return redirect()->to('/profile');
-            }else{
-                $session->setFlashdata('msg', 'Email o Password es incorrecta');
-                return redirect()->to('/signin');
             }
-        }else{
-            $session->setFlashdata('msg', 'Email o Password es incorrecta');
-            return redirect()->to('/signin');
-        }
-    }
-
-        public function admin(): string
-    {
-        return view('admin');
-    }
-
+            else{
+                 $session->setFlashdata('msg', 'Email o Password es incorrecta');
+                 return redirect()->to('/signin');
+                } 
+ }
 }
+ }

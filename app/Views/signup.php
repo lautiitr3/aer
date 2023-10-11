@@ -16,7 +16,7 @@
             <nav class="main-nav">
                 <ul>
                     <li><a href="http://localhost:8080/index.php/profile">Inicio</a></li>
-                    <li><a href="http://localhost:8080/signup">Registrarse</a></li>
+                    <li><a href="http://localhost/pruebitaashe/public/">Registrarse</a></li>
                     <li><a href="http://localhost:8080/index.php/signin">Iniciar sesión</a></li>
                     <li><a href="http://localhost/pruebitaashe/public/destinos">Destinos</a></li>
                     <!-- Agrega más enlaces de navegación aquí -->
